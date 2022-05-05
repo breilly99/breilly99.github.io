@@ -1,48 +1,30 @@
 body {
-  font-family: "Roboto", "Lato", sans-serif
+  font-family: "Roboto", "Lato", sans-serif;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
 }
 
-nav ul li a {
-  color: #006400
-  text-decoration: none;
+a,
+a:link {
+  color: rgb(14,31,65);
 }
 
-nav ul {
-  background-color: #FF8C00
-  display: flex;
-  justify-content: center;
+a:visited {
+  color: #555; /* contrast ratio: 7.45:1 */
 }
 
-nav ul > li {
-  text-transform: capitalize;
-  padding: 15px;
-  display: inline-block
+a:hover {
+  color: rgb(201,53,68);
+}
+
+a:active {
+  color: rgb(245,188,78);
 }
 
 h1,
-h2 {
-  text-transform: capitalize
-}
-
-h1 {
-  font-size: 32px;
-}
-h2 {
-  font-size: 28px;
-}
+h2,
 h3 {
-  font-size: 20px;
-}
-
-ol li {
-  padding: 8px;
-}
-
-p span {
-  font-weight: bold
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
 }
