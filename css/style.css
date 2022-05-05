@@ -1,0 +1,56 @@
+header {
+  grid-area: Home;
+  background-color:#008000;
+  color: #FFA500
+  font-size: 22px;
+  padding: 24px;
+  border-radius: 22px;
+  border-style: double;
+  border-color: =#7CFC00
+}
+
+
+body{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap; 15px;
+  grid-template-areas:
+    "home home"
+    "about about"
+    "reels reels"
+    font-family: "Open Sans"
+}
+
+figure img{
+  border: 1px solid
+
+}
+
+img{
+
+}
+
+h1,
+h2,
+h2{
+  font-family:"Nunito"
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+figurecaption{
+  text-align: right;
+  color: #2D2D2D
+}
+
+a:hover{
+
+}
