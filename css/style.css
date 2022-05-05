@@ -1,13 +1,47 @@
 body {
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: 300px 1fr;
-  gap: 1rem;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  font: 500 100%/1.5 system-ui;
+  font-family: "Roboto", "Lato", sans-serif
 }
+
+nav ul li a {
+  color: #006400
+  text-decoration: none;
+}
+
+nav ul {
+  background-color: #FF8C00
+  display: flex;
+  justify-content: center;
+}
+
+nav ul > li {
+  text-transform: capitalize;
+  padding: 15px;
+  display: inline-block
+}
+
+h1,
+h2 {
+  text-transform: capitalize
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 20px;
+}
+
+ol li {
+  padding: 8px;
+}
+
+p span {
+  font-weight: bold
+}
+
 img {
   max-width: 100%;
   height: auto;
