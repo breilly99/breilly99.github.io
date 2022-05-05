@@ -1,56 +1,56 @@
-header {
-  grid-area: Home;
-  background-color:#008000;
-  color: #FFA500
-  font-size: 22px;
-  padding: 24px;
-  border-radius: 22px;
-  border-style: double;
-  border-color: =#7CFC00
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
 }
 
 
-body{
+body {
+  max-width: 960px;
+  margin: 20px auto;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-gap; 15px;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
   grid-template-areas:
-    "home home"
-    "about about"
-    "reels reels"
-    font-family: "Open Sans"
+    "home    home"
+    "about   about"
+    "reels   reels";
 }
 
-figure img{
-  border: 1px solid
-
+h2 {
+  margin-top: 0;
 }
 
-img{
-
+p {
+  margin: 0;
 }
 
-h1,
-h2,
-h2{
-  font-family:"Nunito"
+header,
+footer {
+  padding: 0 20px;
 }
 
-nav ul {
-  list-style-type: none;
-  padding-left: 0;
+header {
+  grid-area: home;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 15px;
+nav {
+  grid-area: navigation;
 }
 
-figurecaption{
-  text-align: right;
-  color: #2D2D2D
+main {
+  grid-area: reels;
 }
 
-a:hover{
-
+section {
+  padding: 20px;
 }
