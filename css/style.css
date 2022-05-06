@@ -1,27 +1,28 @@
 header {
-  grid-area:welcome;
+  grid-area: Home;
   background-color:#008000;
   color: #FFA500
   font-size: 22px;
   padding: 24px;
   border-radius: 22px;
   border-style: double;
-  border-color:#7CFC00
+  border-color: =#7CFC00
 }
 
 
 body{
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 15px;
+  grid-gap; 15px;
   grid-template-areas:
     "home home"
     "about about"
-    "reels reels"
+    "broadcasting reels broadcasting reels"
     font-family: "Lato"
 }
 
-img{
+figure img{
+  border: 1px solid
 
 }
 
@@ -33,4 +34,23 @@ h1,
 h2,
 h2{
   font-family:"Roboto"
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+figurecaption{
+  text-align: right;
+  color: #2D2D2D
+}
+
+a:hover{
+
 }
