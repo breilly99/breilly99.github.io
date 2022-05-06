@@ -1,55 +1,36 @@
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-header,
-nav,
-footer {
-  background-color: #006400;
-}
-
-section {
-  background-color: #FF8C00;
-}
-
-body {
-  max-width: 960px;
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 20px;
-  grid-template-areas:
-    "home    home"
-    "about   about"
-    "reels   reels";
-}
-
-h2 {
-  margin-top: 0;
-}
-
-p {
-  margin: 0;
-}
-
-header,
-footer {
-  padding: 0 20px;
-}
-
 header {
-  grid-area: home;
+  grid-area:welcome;
+  background-color:#008000;
+  color: #FFA500
+  font-size: 22px;
+  padding: 24px;
+  border-radius: 22px;
+  border-style: double;
+  border-color:#7CFC00
 }
 
-nav {
-  grid-area: navigation;
+
+body{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  grid-template-areas:
+    "home home"
+    "about about"
+    "reels reels"
+    font-family: "Lato"
 }
 
-main {
-  grid-area: welcome;
+img{
+
 }
 
-section {
-  padding: 20px;
+img{
+
+}
+
+h1,
+h2,
+h2{
+  font-family:"Roboto"
 }
